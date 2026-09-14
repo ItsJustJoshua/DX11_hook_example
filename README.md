@@ -1,5 +1,10 @@
 # DX11 Hook Example
 
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![DirectX 11](https://img.shields.io/badge/DirectX%2011-0078D6?style=for-the-badge&logo=directx&logoColor=white)
+![IDA](https://img.shields.io/badge/IDA-5A5A5A?style=for-the-badge&logo=ida&logoColor=white)
+
 ## What is this?
 
 A DLL that hooks `IDXGISwapChain::Present` in the DirectX 11 [ImGui](https://github.com/ocornut/imgui) example and renders an overlay into the game's swap chain using ImGui. The goal was to demonstrate reverse engineering and runtime hooking skills on a real target.
