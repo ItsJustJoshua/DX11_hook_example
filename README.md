@@ -98,7 +98,7 @@ frame presented
 
 1. Open `DX11_hook_example.sln` in Visual Studio 2026
 2. Set configuration to **Release / x64** (must match the target's bitness)
-3. Build — the DLL outputs to `bin/x64/Release/`
+3. Build — the DLL outputs to `x64/Release/`
 
 ## Usage
 
