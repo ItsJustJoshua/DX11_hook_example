@@ -118,3 +118,13 @@ frame presented
 - The back-buffer render target view is recreated every frame instead of being cached
 - The `WndProc` hook is not restored when the DLL unloads
 - Only tested against the ImGui DX11 example; other engines may use `D3D11CreateDevice` + `IDXGIFactory::CreateSwapChain` instead, which would require an additional hook point
+
+## Third-Party Licenses
+
+This project uses [Dear ImGui](https://github.com/ocornut/imgui), which is licensed under the MIT License. The full license text is available in the `imgui/LICENSE.txt` file within this repository.
+
+## Disclaimer
+
+>This project is provided for educational and research purposes only. It is intended
+>to demonstrate reverse engineering and runtime hooking techniques on software you
+>own or have explicit permission to modify. The author is not responsible for any misuse.
